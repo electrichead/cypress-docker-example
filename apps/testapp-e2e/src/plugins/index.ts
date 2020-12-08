@@ -19,4 +19,6 @@ module.exports = (on, config) => {
 
   // Preprocess Typescript file using Nx helper
   on('file:preprocessor', preprocessTypescript(config));
+  config.baseUrl = 'http://localhost:4200';
+  return config;
 };
