@@ -11,5 +11,6 @@
   "chromeWebSecurity": false,
   "env": {
     "tsConfig": "tsconfig.e2e.json"
-  }
+  },
+  "testFiles": "**/*.feature"
 }
