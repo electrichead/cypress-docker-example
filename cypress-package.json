@@ -1,0 +1,21 @@
+{
+  "name": "cypress-docker",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nps",
+    "test": "nps test"
+  },
+  "private": true,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nrwl/cypress": "10.4.4",
+    "cypress": "6.1.0",
+    "eslint": "7.10.0",
+    "ts-jest": "26.4.0",
+    "ts-node": "~7.0.0",
+    "typescript": "~4.0.3"
+  }
+}

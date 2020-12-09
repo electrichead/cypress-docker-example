@@ -1,0 +1,15 @@
+{
+  "fileServerFolder": ".",
+  "fixturesFolder": "./src/fixtures",
+  "integrationFolder": "./src/integration",
+  "modifyObstructiveCode": false,
+  "pluginsFile": "./src/plugins/index.ts",
+  "supportFile": "./src/support/index.ts",
+  "baseUrl": "http://host.docker.internal:4200",
+  "video": false,
+  "screenshotsFolder": "../../dist/cypress/apps/testapp-e2e/screenshots",
+  "chromeWebSecurity": false,
+  "env": {
+    "tsConfig": "tsconfig.e2e.json"
+  }
+}
